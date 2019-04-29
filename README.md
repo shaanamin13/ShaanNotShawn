@@ -1,2 +1,2 @@
-# ShaanNotShawn
-This is my professional portfolio
+# ShaanNotShawn' portfolio
+This is my professional portfolio. It uses AWS and ReactJS.
