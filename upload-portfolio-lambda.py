@@ -20,7 +20,7 @@ def lambda_handler(event, context):
         
         if job:
             for artifact in job["data"]["inputArtifacts"]:
-                if artifact["name"] == "MyAppBuild":
+                if artifact["name"] == "BuildArtif":
                     location = artifact["location"]["s3Location"]
         
         s3 = boto3.resource('s3')
