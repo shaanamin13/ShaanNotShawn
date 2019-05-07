@@ -5,6 +5,7 @@ import ExampleWork from "./examplework";
 const MyWork = [
   {
     title: "Xamarin Cross-Platform",
+    href: "http://example.com",
     image: {
       desc: "example screenshot of a project involving code",
       src: "images/example1.png",
@@ -13,6 +14,7 @@ const MyWork = [
   },
   {
     title: "Unity and C#",
+    href: "http://example.com",
     image: {
       desc: "example screenshot of a project involving cats",
       src: "images/example3.png",
@@ -21,6 +23,7 @@ const MyWork = [
   },
   {
     title: "MERN Stack Development",
+    href: "http://example.com",
     image: {
       desc: "example screenshot of a project involving chemistry",
       src: "images/example2.png",
