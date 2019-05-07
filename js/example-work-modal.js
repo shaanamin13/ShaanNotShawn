@@ -2,10 +2,10 @@ import React from "react";
 
 class ExampleWorkModal extends React.Component {
   render() {
-      let example = this.props.example;
-
+    let example = this.props.example;
+    let modalClass = this.props.open ? "modal--open" : "modal--closed";
     return (
-      <div className="background--skyBlue modal--closed">
+      <div className={"background--skyBlue " + modalClass}>
         <span className="color--cloud modal__closeButton">
           <i className="fab fa-window-close-o" />
         </span>
@@ -19,9 +19,7 @@ class ExampleWorkModal extends React.Component {
           <a className="color--skyBlue modal__link" href={example.href}>
             Check it out
           </a>
-          <p className="modal__description">
-           {example.desc}
-          </p>
+          <p className="modal__description">{example.desc}</p>
         </div>
       </div>
     );
